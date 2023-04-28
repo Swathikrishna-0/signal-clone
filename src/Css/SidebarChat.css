@@ -1,0 +1,40 @@
+.sidebarChat {
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+.sidebarChat:hover {
+  background-color: rgba(146, 146, 146, 0.8);
+}
+.sidebarChat > .MuiAvatar-root {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.sidebarChat__info {
+  position: relative;
+  width: 100%;
+  padding-left: 10px;
+}
+.sidebarChat__info > small {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.sidebarChat__info > h3 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-bottom: -10px;
+}
+.sidebarChat__info > p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  max-height: 1.5rem;
+  line-height: 1.5rem;
+}
